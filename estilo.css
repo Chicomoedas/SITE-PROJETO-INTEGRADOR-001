@@ -1,5 +1,13 @@
 .body{
     text-align: left; 
     color: #800000;
-    
-}
+    }
+.button {
+    content: ''; /* Conteúdo vazio para o ícone */
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border: 2px solid #800000; /* Contorno preto para o triângulo */
+    border-right: transparent; /* Remover borda direita para criar a seta */
+    border-top: transparent; /* Remover borda superior para criar a seta */
+    transform: rotate(45deg);}
