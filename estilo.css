@@ -1,7 +1,38 @@
+header {
+    width: 1440px;
+    height: 164px;
+    background-color: #800000; /* Cor de fundo do cabeçalho */
+    display: flex; /* Usar flexbox para centralizar o logo */
+    justify-content: center; /* Centralizar o logo na horizontal */
+    align-items: center; /* Centralizar o logo na vertical */
+    margin-right: 0%;
+}
+ 
+.logo {
+    width: 200px; /* Ajustar o tamanho do logo */
+    height: auto;
+}
 .body{
-    text-align: left; 
-    color: #800000;
+   background-image: url(Imagens/Fundo\ index\ auto\ v1.png);
+   background-size: cover;
+   background-position-x: right;
     }
+    .titulo {
+ text-align: left; 
+ color: #800000;
+width: 690px;
+height: 153px;
+    }
+
+    .img{
+        position: fixed; /* Fixar a imagem na tela */
+        top: 0; /* Posicionar no topo */
+        left: 0; /* Posicionar na esquerda */
+        width: 100%; /* Cobertura total na horizontal */
+        height: 100%; /* Cobertura total na vertical */
+        z-index: -1; /* Posicionar atrás do conteúdo */
+      }
+
 .button {
     content: ''; /* Conteúdo vazio para o ícone */
     display: inline-block;
@@ -10,4 +41,4 @@
     border: 2px solid #800000; /* Contorno preto para o triângulo */
     border-right: transparent; /* Remover borda direita para criar a seta */
     border-top: transparent; /* Remover borda superior para criar a seta */
-    transform: rotate(45deg);}
+}
