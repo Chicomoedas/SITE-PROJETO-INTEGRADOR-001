@@ -10,6 +10,7 @@ header {
     align-items: center; /* Centralizar o logo na vertical */
     margin-right: 0%;
     margin-left: 0%;
+    box-sizing: border-box;
 }
  
 .logo {
@@ -20,7 +21,7 @@ header {
 .section{
     background-image: url(Imagens/Fundo\ index\ auto\ v1.png);
     background-size:  1440px, 141px;
-    background-position: left;
+    background-position: right;
 }
 
 
@@ -31,10 +32,10 @@ header {
    background-position-x: right;
     }
     .titulo {
- text-align: left; 
- color: #800000;
-width: 690px;
-height: 153px;
+    text-align: left; 
+    color: #800000;
+    width: 690px;
+    height: 153px;
     }
 
     .img{
@@ -54,4 +55,15 @@ height: 153px;
     border: 2px solid #800000; /* Contorno preto para o triângulo */
     border-right: transparent; /* Remover borda direita para criar a seta */
     border-top: transparent; /* Remover borda superior para criar a seta */
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 1473px;
+    height: 68px;
+    background-color: #800000;
+    color: #800000;
+    text-align: center;
+    line-height: 68px;
 }
