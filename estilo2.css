@@ -1,4 +1,21 @@
-
+.botao-seta {
+    position: fixed; /* Posiciona o botão fixo na tela */
+    top: 20px; /* Distância do topo da tela */
+    left: 20px; /* Distância da esquerda da tela */
+    z-index: 100; /* Garante que o botão esteja acima de outros elementos */
+  }
+   
+  .botao-seta a {
+    display: block;
+    width: 24px;
+    height: 24px;
+    text-decoration: none;
+  }
+   
+  .botao-seta svg {
+    color: #800000; /* Cor da seta */
+  }
+ 
 
 
 
