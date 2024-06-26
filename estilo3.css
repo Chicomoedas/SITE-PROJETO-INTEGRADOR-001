@@ -5,7 +5,10 @@
     left: 20px; /* Distância da esquerda da tela */
     z-index: 100; /* Garante que o botão esteja acima de outros elementos */
   }
-   
+  .body{
+    background-color: #FFF0F5;
+  
+  }
   .botao-seta a {
     display: block;
     width: 24px;

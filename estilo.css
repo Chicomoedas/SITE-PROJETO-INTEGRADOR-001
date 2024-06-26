@@ -1,5 +1,5 @@
 header {
-    position: sticky;
+
     top: 0;
     text-align: center;
     width: 100%;
@@ -58,23 +58,53 @@ header {
         z-index: -1; /* Posicionar atrás do conteúdo */
       }
 
-.button a{
-    text-decoration: none;
-    content: 'none'; /* Conteúdo vazio para o ícone */
-    display: inline-block;
-    width: 187px;
-    height: 65px;
-    border: 2px solid #800000; /* Contorno preto para o triângulo */
-    border-right: transparent; /* Remover borda direita para criar a seta */
-    border-top: transparent; /* Remover borda superior para criar a seta */
-    margin-top: 20PX;
-    margin-bottom: 10PX ;
-    margin-left: 20PX;
-    margin-right:20PX ;
-}
+
+      .botao-1 {
+        
+            text-decoration: none;
+            background-color: transparent; /* Torna o botão transparente */
+             /* Define a margem de 6px entre os botões */
+            border: 2px #800000, solid;  /* Define a borda vermelha */
+            border-radius: #800000,  0px; /* Torna as bordas mais pontudas (sem arredondamento) */
+            padding: 10px 20px; /* Adiciona um pouco de preenchimento para torná-lo mais visualmente agradável */
+            cursor: pointer; /* Muda o cursor para pointer ao passar o mouse */
+            color: #800000; /* Define a cor do texto como vermelha */
+            text-align: center; /* Centraliza o texto dentro do botão */
+            display: inline-block; /* Permite que as divs se comportem como botões inline */
+        }
+        .botao-2 {
+        
+            text-decoration: none;
+            background-color: transparent; /* Torna o botão transparente */
+            margin: 6px; /* Define a margem de 6px entre os botões */
+            border: 2px #800000, solid;  /* Define a borda vermelha */
+            border-radius: #800000,  0px; /* Torna as bordas mais pontudas (sem arredondamento) */
+            padding: 10px 20px; /* Adiciona um pouco de preenchimento para torná-lo mais visualmente agradável */
+            cursor: pointer; /* Muda o cursor para pointer ao passar o mouse */
+            color: #800000; /* Define a cor do texto como vermelha */
+            text-align: center; /* Centraliza o texto dentro do botão */
+            display: inline-block; /* Permite que as divs se comportem como botões inline */
+        }
+        .botao-3 {
+        
+            text-decoration: none;
+            background-color: transparent; /* Torna o botão transparente */
+            margin: 6px; /* Define a margem de 6px entre os botões */
+            border: 2px #800000, solid;  /* Define a borda vermelha */
+            border-radius: #800000,  0px; /* Torna as bordas mais pontudas (sem arredondamento) */
+            padding: 10px 20px; /* Adiciona um pouco de preenchimento para torná-lo mais visualmente agradável */
+            cursor: pointer; /* Muda o cursor para pointer ao passar o mouse */
+            color: #800000; /* Define a cor do texto como vermelha */
+            text-align: center; /* Centraliza o texto dentro do botão */
+            display: inline-block; /* Permite que as divs se comportem como botões inline */
+        }
+          
+          
+      
 
 .footer {
     position: fixed;
+    align-items: center;
     bottom: 0;
     width: 100%;
     height: 64px;
@@ -82,11 +112,19 @@ header {
     color: #800000;
     text-align: center;
     line-height: 68px;
+    margin: 0%;
 
 }
 
-.icons{
+.icons{.
+    /* Propriedade display para garantir que os ícones sejam exibidos em linha */
+    display: inline-block;
+    /* Tamanho do ícone */
+  
+    margin: 6px; /* Ajuste este valor para controlar a distância entre os ícones */
+    /* Adicionar outras propriedades de estilo que você desejar */
+  }
    
     
 
-}
+

@@ -4,17 +4,11 @@
     left: 20px; /* Distância da esquerda da tela */
     z-index: 100; /* Garante que o botão esteja acima de outros elementos */
   }
-   
-  .botao-seta a {
-    display: block;
-    width: 24px;
-    height: 24px;
-    text-decoration: none;
+  .body{
+    background-color: #FFF0F5;
+  
   }
-   
-  .botao-seta svg {
-    color: #800000; /* Cor da seta */
-  }
+
  
 
 
