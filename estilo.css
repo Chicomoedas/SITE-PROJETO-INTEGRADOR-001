@@ -119,8 +119,10 @@ header {
 .icons{.
     /* Propriedade display para garantir que os ícones sejam exibidos em linha */
     display: inline-block;
-    /* Tamanho do ícone */
-  
+    padding: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    align-items: center;
     margin: 6px; /* Ajuste este valor para controlar a distância entre os ícones */
     /* Adicionar outras propriedades de estilo que você desejar */
   }
