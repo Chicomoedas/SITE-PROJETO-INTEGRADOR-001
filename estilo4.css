@@ -11,6 +11,19 @@
   background-color: #FFF0F5;
 
 }
+.Fotos {
+  display: flex; /* Ativa o layout flexbox */
+  justify-content: center; /* Centraliza os itens na horizontal */
+  align-items: center; /* Centraliza os itens na vertical */
+  gap: 8px; /* Espaço entre os itens */
+}
+ 
+/* Imagens dentro da div */
+.container-fotos img {
+  flex: 0 0 auto; /* Define o tamanho das imagens */
+  max-width: 300px; /* Largura máxima das imagens */
+  height: auto; /* Mantém a proporção da imagem */
+}
 
 
   .titulo {

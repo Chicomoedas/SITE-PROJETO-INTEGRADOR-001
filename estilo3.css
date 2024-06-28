@@ -1,12 +1,22 @@
-
+.titulo {
+  text-align: center; 
+  color: #800000;
+  width: 690px;
+  height: 310px;
+  margin-top: 50px;
+  margin-left: 400px;
+  }
 .botao-seta {
     position: fixed; /* Posiciona o botão fixo na tela */
     top: 20px; /* Distância do topo da tela */
     left: 20px; /* Distância da esquerda da tela */
     z-index: 100; /* Garante que o botão esteja acima de outros elementos */
   }
+
   .body{
     background-color: #FFF0F5;
+    text-align: center;
+    align-items: center;
   
   }
   .botao-seta a {
@@ -20,8 +30,90 @@
     color: #800000; /* Cor da seta */
   }
  
+  .Fotos {
+    display: inline-flex; 
+    justify-content: center; /* Centraliza os itens na horizontal */
+    align-items: center; /* Centraliza os itens na vertical */
+    gap: 60px; /* Espaço entre os itens */
+    margin-left: 400px;
+    flex: 0 0 auto; /* Define o tamanho das imagens */
+    max-width: 300px; /* Largura máxima das imagens */
+    height: auto; /* Mantém a proporção da imagem */
+    margin: 0 auto; /* Centraliza as imagens na horizontal e vertical */
+    margin-left: 600PX;
+    margin-top: 60px;
+  }
+  .botoes {
+    font-size: 19px;
+    text-align: center;
+    align-items: center;
+    display:inline-flex; /* Ativa o Flexbox */
+    gap: 200px; /* Espaço entre os botões */
+    margin-top: 30px; /* Espaço entre a foto e os botões */  
+    flex: 1; /* Distribui o espaço disponível igualmente entre os botões */
+    padding: 10px, 20px; /* Espaço interno dos botões */
+    border: none; /* Remove a borda padrão dos botões */
+    border-radius: 5px; /* Arredonda os cantos dos botões */
+    cursor: pointer; 
+    margin-left: 320PX;
+   
+  }
+  .botao-1 a{
+    text-decoration: none;
+    text-align: center;
+    background-color: #800000; /* Torna o botão transparente */
+    border: 2px #800000, solid;  /* Define a borda vermelha */
+    border-radius: #800000,  20px; /* Torna as bordas mais pontudas (sem arredondamento) */
+    padding: 30px 80px; /* Adiciona um pouco de preenchimento para torná-lo mais visualmente agradável */
+    cursor: pointer; /* Muda o cursor para pointer ao passar o mouse */
+    color: white; /* Define a cor do texto como vermelha */
+    text-align: center; /* Centraliza o texto dentro do botão */
+    display: flex; 
+}
 
+.botao-2 a{
+    
+    /* text-decoration: none;
+    text-align: center;
+    background-color: #800000; Torna o botão transparente */
+    /* border: 2px #800000, solid;  Define a borda vermelha */
+    /* border-radius: #800000,  20px; Torna as bordas mais pontudas (sem arredondamento) */
+    /* padding: 30px 80px; Adiciona um pouco de preenchimento para torná-lo mais visualmente agradável */
+    /* cursor: pointer; Muda o cursor para pointer ao passar o mouse */
+    /* color: white; Define a cor do texto como vermelha */
+    /* text-align: center; Centraliza o texto dentro do botão */
+    /* display: flex;  */
+    text-decoration: none;
+    text-align: center;
+    background-color: #800000;
+    border: 2px #800000, solid;
+    border-radius: #800000, 20px;
+    /* padding: 30px 80px; */
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    display: block;
+    width: 100%;
+    padding-top: 28px;
+    padding-bottom: 20px;
+    padding-left: 9px;
+    padding-right: 10px;
+    margin-top: 35px;
+}
+.botao-3 a{
 
+    text-decoration: none;
+    text-align: center;
+    background-color: #800000; /* Torna o botão transparente */
+    border: 2px #800000, solid;  /* Define a borda vermelha */
+    border-radius: #800000,  20px; /* Torna as bordas mais pontudas (sem arredondamento) */
+    padding: 30px 80px; /* Adiciona um pouco de preenchimento para torná-lo mais visualmente agradável */
+    cursor: pointer; /* Muda o cursor para pointer ao passar o mouse */
+    color: white; /* Define a cor do texto como vermelha */
+    text-align: center; /* Centraliza o texto dentro do botão */
+    display: flex; 
+}
+  
 
 
 .footer {

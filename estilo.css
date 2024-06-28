@@ -17,10 +17,10 @@ header {
     
 }
 
-.cabecalho{
+
     
 
-}
+
  
 .logo {
     width: 100px; /* Ajustar o tamanho do logo */
@@ -57,9 +57,21 @@ header {
         height: 100%; /* Cobertura total na vertical */
         z-index: -1; /* Posicionar atrás do conteúdo */
       }
-
-
-      .botao-1 {
+      .botoes{
+      text-align: center;
+      align-items: center;
+      display:flex; /* Ativa o Flexbox */
+      gap: 20px; /* Espaço entre os botões */
+      margin-top: 10px; /* Espaço entre a foto e os botões */  
+      flex: 1; /* Distribui o espaço disponível igualmente entre os botões */
+      padding: 10px 20px; /* Espaço interno dos botões */
+      border: none; /* Remove a borda padrão dos botões */
+      border-radius: 5px; /* Arredonda os cantos dos botões */
+      cursor: pointer; 
+      margin-left: 10PX;
+      margin-top: 90px;
+      }
+      .botao-1 a{
         
             text-decoration: none;
             background-color: transparent; /* Torna o botão transparente */
@@ -72,7 +84,7 @@ header {
             text-align: center; /* Centraliza o texto dentro do botão */
             display: inline-block; /* Permite que as divs se comportem como botões inline */
         }
-        .botao-2 {
+        .botao-2 a{
         
             text-decoration: none;
             background-color: transparent; /* Torna o botão transparente */
@@ -85,7 +97,7 @@ header {
             text-align: center; /* Centraliza o texto dentro do botão */
             display: inline-block; /* Permite que as divs se comportem como botões inline */
         }
-        .botao-3 {
+        .botao-3 a{
         
             text-decoration: none;
             background-color: transparent; /* Torna o botão transparente */
@@ -115,17 +127,19 @@ header {
     margin: 0%;
 
 }
-
-.icons{.
-    /* Propriedade display para garantir que os ícones sejam exibidos em linha */
-    display: inline-block;
-    padding: auto;
-    margin-top: auto;
-    margin-bottom: auto;
+.icons a{
+    display: inline-block ;
+    text-align: center;
     align-items: center;
-    margin: 6px; /* Ajuste este valor para controlar a distância entre os ícones */
-    /* Adicionar outras propriedades de estilo que você desejar */
-  }
+    gap: 2px; /* Espaço entre os botões */
+    
+    flex: 1; /* Distribui o espaço disponível igualmente entre os botões */
+    padding: 1px 2px; /* Espaço interno dos botões */
+    border: none; /* Remove a borda padrão dos botões */
+}
+
+
+
    
     
 
