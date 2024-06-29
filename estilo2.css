@@ -12,11 +12,12 @@
     display: block;
     color: #800000;
     text-align: center;
+    
   }
   .jesus{
   display: inline-block;
   padding-left: 500px;
-  padding-top: 80px;
+  padding-top: 30px;
   width: 50%; /* Define a largura da foto como 50% da largura da tela */
   max-width: 600px; /* Define a largura máxima da foto como 600px */
   height: auto; /* Mantém a proporção da imagem */
@@ -26,12 +27,12 @@
     align-items: center;
     display:flex; /* Ativa o Flexbox */
     gap: 4px; /* Espaço entre os botões */
-    margin-top: 20px; /* Espaço entre a foto e os botões */  flex: 1; /* Distribui o espaço disponível igualmente entre os botões */
+    margin-top: 15px; /* Espaço entre a foto e os botões */  flex: 1; /* Distribui o espaço disponível igualmente entre os botões */
     padding: 0; /* Espaço interno dos botões */
     border: none; /* Remove a borda padrão dos botões */
     border-radius: 5px; /* Arredonda os cantos dos botões */
     cursor: pointer; 
-    margin-left: 260PX;
+    margin-left: 415PX;
   }
 
   .botao-1 a{
@@ -40,7 +41,7 @@
     background-color: #800000; /* Torna o botão transparente */
      /* Define a margem de 6px entre os botões */
     border: 2px #800000, solid;  /* Define a borda vermelha */
-    border-radius: #800000,  0px; /* Torna as bordas mais pontudas (sem arredondamento) */
+    border-radius:  20px; /* Torna as bordas mais pontudas (sem arredondamento) */
     padding:20px 50px; /* Adiciona um pouco de preenchimento para torná-lo mais visualmente agradável */
     cursor: pointer; /* Muda o cursor para pointer ao passar o mouse */
     color:white; /* Define a cor do texto como vermelha */
@@ -56,7 +57,7 @@
     background-color: #800000; /* Torna o botão transparente */
     margin: 6px; /* Define a margem de 6px entre os botões */
     border: 2px #800000, solid;  /* Define a borda vermelha */
-    border-radius: #800000,  0px; /* Torna as bordas mais pontudas (sem arredondamento) */
+    border-radius:  20px; /* Torna as bordas mais pontudas (sem arredondamento) */
     padding: 20px 50px; /* Adiciona um pouco de preenchimento para torná-lo mais visualmente agradável */
     cursor: pointer; /* Muda o cursor para pointer ao passar o mouse */
     color: white; /* Define a cor do texto como vermelha */
@@ -72,7 +73,7 @@
     background-color: #800000; /* Torna o botão transparente */
     margin: 6px; /* Define a margem de 6px entre os botões */
     border: 2px #800000, solid;  /* Define a borda vermelha */
-    border-radius: #800000,  20px; /* Torna as bordas mais pontudas (sem arredondamento) */
+    border-radius:   20px; /* Torna as bordas mais pontudas (sem arredondamento) */
     padding: 20px 50px; /* Adiciona um pouco de preenchimento para torná-lo mais visualmente agradável */
     cursor: pointer; /* Muda o cursor para pointer ao passar o mouse */
     color: white; /* Define a cor do texto como vermelha */
@@ -81,14 +82,14 @@
     justify-content: center;
     
 }
-.botao-4 {
+.botao-4 a{
 
   text-decoration: none;
   text-align: center;
   background-color: #800000; /* Torna o botão transparente */
   margin: 6px; /* Define a margem de 6px entre os botões */
   border: 2px #800000, solid;  /* Define a borda vermelha */
-  border-radius: #800000,  20px; /* Torna as bordas mais pontudas (sem arredondamento) */
+  border-radius:   20px; /* Torna as bordas mais pontudas (sem arredondamento) */
   padding: 20px 50px; /* Adiciona um pouco de preenchimento para torná-lo mais visualmente agradável */
   cursor: pointer; /* Muda o cursor para pointer ao passar o mouse */
   color: white; /* Define a cor do texto como vermelha */
